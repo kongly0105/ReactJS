@@ -11,7 +11,7 @@ class App extends Component {
   render(){
     return (
       <div className='App'>
-        <Counter />
+        {/* <Counter /> */}
         {/* <Greet name="Bruce" heroName="Batman" >
           <p>This is children props</p>
         </Greet>
@@ -22,6 +22,8 @@ class App extends Component {
         <Welcome name="Bruce" heroName="Batman" />
         <Welcome name="Clark" heroName="Superman" />
         <Welcome name="Diana" heroName="Wonder Womar" /> */}
+        <Greet name="Diana" heroName="Wonder Womar" />
+        <Welcome name="Bruce" heroName="Batman" />
       </div>
     );
   }
