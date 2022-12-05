@@ -1,12 +1,13 @@
 import React from "react";
 
-//function Components
-
-function Greet() {
-    return <h1>Hello World</h1>
-}
-
-// ES 6 arrow function
-// export const Greet = () => <h1>Hello World</h1>
-
-export default Greet;
+const Greet = (props) => {
+    return(
+        <div>
+            <h1>
+                Hello {props.name} a.k.a {props.heroName}
+            </h1>
+            {props.children}
+        </div>
+    ) 
+} 
+export default Greet
